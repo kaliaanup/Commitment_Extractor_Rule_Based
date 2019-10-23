@@ -1,7 +1,7 @@
 # Commitment Extractor
 A Python class that extracts commitments from text using a list of rules. 
 
-A commitment is normative relation between a **subject** and an **object** in which the **subject** is committed to bring about 
+A commitment is normative relation between a **subject** and an **object** in which the **subject** is committed to the **object** to bring about 
 a **consequent** if the **anticident** holds. The following is an example commitment:
 
 > If you agree to the list, I'll go ahead and submit them.
@@ -12,7 +12,7 @@ a **consequent** if the **anticident** holds. The following is an example commit
 - **consequent**: go ahead and submit them
 
 However, in everyday conversations, the **object** and the **anticident** are frequently ommitted. This class identifies 
-the commitment in a sentence, and its **subject** and **consequent** only. 
+the commitment in a sentence, and its **subject** and **consequent** only. The **subject** has to include *I* or *we*. 
 
 Note that sometimes people include *compositions* in their commitments. The example above actually includes two consequents:
 *go head* and *submit them* (well, whether or not they are actually two separate things is a differnt matter). This class 
