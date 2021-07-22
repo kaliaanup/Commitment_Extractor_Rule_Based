@@ -1,4 +1,6 @@
-# Commitment Extractor
+# Commitment Extractor 
+--The original code was in Java but Hui (a PhD student at NCSU) converted this to Python.
+
 A Python class that extracts commitments from text using a list of rules. 
 
 A commitment is normative relation between a **subject** and an **object** in which the **subject** is committed to the **object** to bring about 
@@ -71,4 +73,19 @@ The following is a sample output.
         'commisive_word_id': 3,
         'compositions': [],
 }]
+```
+
+Please cite
+
+```
+@inproceedings{Kalia+SCC+2013,
+  author    = {Anup K. Kalia and Hamid R. Motahari Nezhad and Claudio Bartolini and Munindar P. Singh},
+  title     = {Monitoring Commitments in People-Driven Service Engagements},
+  booktitle = {Proceedings of IEEE International Conference on Services Computing},
+  pages     = {160--167},
+  publisher = {{IEEE} Computer Society},
+  year      = {2013},
+  address = {Santa Clara, US}
+  }
+
 ```
