@@ -1,5 +1,5 @@
 # Commitment Extractor 
---The original code was in Java but Hui (a PhD student at NCSU) converted this to Python.
+--A rule based approach by Hui Guo (a PhD student at NCSU) converted this to Python.
 
 A Python class that extracts commitments from text using a list of rules. 
 
